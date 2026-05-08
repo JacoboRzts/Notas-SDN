@@ -1,5 +1,4 @@
 
-
 Todos los switches están conectados al controlador de ODL mediante su puerto `1`, ademas la IP del controlador es `192.168.1.10/24`. Cada controlador tiene configurada una VLAN para la red con las siguientes direcciones: 
 ```
 Core1: 192.168.1.11/24 
