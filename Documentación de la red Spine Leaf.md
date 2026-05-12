@@ -14,6 +14,7 @@ E1 --- H5
 E1 --- H6
 E2 --- H7
 E2 --- H8
+E2 --- H9
 ```
 
 Todos los switches están conectados al controlador de ODL mediante su puerto `1`, ademas la IP del controlador es `192.168.1.10/24`. Cada controlador tiene configurada una VLAN para la red con las siguientes direcciones: 
