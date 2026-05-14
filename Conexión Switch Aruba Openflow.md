@@ -1,3 +1,5 @@
+# Inicio
+
 La topologia con la que se trabaja actualmente es la siguiente: 
 ```mermaid
 flowchart TD
@@ -13,11 +15,11 @@ Recordando que físicamente existe una conexión entre todos los switches hacia 
 
 Para lograr esto se usa un switch extra en el cual se conecta el controlador.
 
-# Conectándose al switch 
+## Conectándose al switch 
 
 Para conectarse al switch existen dos maneras, utilizar `ssh` o un cable de consola y conectarse físicamente a un puerto del switch controlador. 
 
-## Conexión directa (Cable de consola) 
+### Conexión directa (Cable de consola) 
 
 Una vez se conecta físicamente el cable es necesario instalar `micom` como se habla en la guía para luego ejecutar el siguiente comando en la terminal
 ```
@@ -25,7 +27,7 @@ sudo minicom -D /dev/ttyUSB0 -b 9600
 ```
 Después de dejarlo cargar nos pedira un usuario y contraseña para finalmente entrar a la CLI del switch.
 
-## Conexión con SSH 
+### Conexión con SSH 
 Muy posiblemente si se intenta conectar mediante ssh usando la sintaxis: `ssh user@ip` desde un dispositivo Linux con alguna distribución actualizada aparezcan algunos errores por los algoritmo de criptografia que se usan para  el intercambio, una solucion en fedora es especificar que este use sistemas antiguos con el comando: 
 
 ```sh
@@ -50,7 +52,7 @@ update-crypto-policies --show
 > [!todo] Actualizar la version de SSH en todos los switches para mejorar la seguridad de la red.
 
 
-# Configuración del switch 
+## Configuración del switch 
 
 Cada switch a usar se debe configurar, siguiendo el paper, dado que esto ya esta hecho solo comprobé con algunos comandos esta configuración para entender mejor el panorama. 
 
@@ -92,19 +94,20 @@ Controller Id    IP Address      Hostname    Port    Interface
 
 Mostrando que tenemos dos controladores configurados, en este caso el que se usara es el que tiene la id 1.
 
-# Controlador OpenDayLight
+## Controlador OpenDayLight
 
 Para usar OpenDayLight es necesario tenerlo descargado para luego entrar a la carpeta `bin` en la cual esta el ejecutable, para ejecutarlo se necesitan tener:
 - la variable `JAVA_HOME` configurada correctamente
-- Java version 17 o superior
+- Java version 21 o superior
 
-> [!tip]- Versiones de Java
+> [!TIP]- Versiones de Java
 > Linux permite instalar varias versiones de Java al mismo tiempo, para cambiar entre ellas se puede usar el comando:
 > ```sh
 > sudo update-alternatives --config java
 > ```
 > Luego solo es necesario seleccionar la que queramos usar, en mi caso estoy usando Java 21 
 
+> [!NOTE] La version de ODL utilizada es la version Vanadium SR1. 
 
 Luego de ejecutar por primera vez ODL es necesario instalar los siguientes plugins para su correcto funcionamiento: 
 - `odl-openflowplugin-flow-services-rest` 

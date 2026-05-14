@@ -1,1 +1,0 @@
-- [ ]  Actualizar los algoritmo de seguridad en los switches para forzarlos a usar algoritmos actuales mas seguros para las conexiones SSH 

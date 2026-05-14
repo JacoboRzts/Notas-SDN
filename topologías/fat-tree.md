@@ -1,5 +1,5 @@
 #apuntes-miguel
-# Objetivo
+## Objetivo
 
 Configurar las IPs de los hosts H1 y H8 y establecer entradas ARP estáticas (Static Entries) para evitar tráfico broadcast ARP en la topología Fat-Tree.
 
@@ -7,9 +7,9 @@ Configurar las IPs de los hosts H1 y H8 y establecer entradas ARP estáticas (St
 
 ---
 
-# Configuración aplicada
+## Configuración aplicada
 
-## H1
+### H1
 
 **Interfaz:** `enx207bd2929ee4`
 
@@ -27,7 +27,7 @@ sudo ip addr add 10.0.0.1/24 dev enx207bd2929ee4sudo ip link set enx207bd2929ee4
 
 ---
 
-## H8
+### H8
 
 **Interfaz:** `enp128s31f6`
 
@@ -45,21 +45,21 @@ sudo ip addr add 10.0.0.8/24 dev enp128s31f6sudo ip link set enp128s31f6 upsudo 
 
 ---
 
-# Estado
+### Estado
 
 ✅ Ambas entradas ARP aparecen como **PERMANENT** en los dos hosts.
 
 ---
 
-# Errores conocidos y soluciones
+## Errores conocidos y soluciones
 
-## H1 — `SIOCSARP: Argumento inválido`
+### H1 — `SIOCSARP: Argumento inválido`
 
 **Causa:** El comando `arp -s` falla si la interfaz no tiene IP asignada al momento de ejecutarlo, o si el formato de MAC no es compatible con la versión del paquete `net-tools`.
 
 **Solución:** Asignar la IP primero con `ip addr add`, luego usar `ip neigh add` en lugar de `arp -s`.
 
-## H8 — `arp: orden no encontrada`
+### H8 — `arp: orden no encontrada`
 
 **Causa:** El paquete `net-tools` (que provee el comando `arp`) no estaba instalado en H8.
 
@@ -67,12 +67,12 @@ sudo ip addr add 10.0.0.8/24 dev enp128s31f6sudo ip link set enp128s31f6 upsudo 
 
 ---
 
-# Nota estratégica
+## Nota estratégica
 
 Se eligió la estrategia **Static Entries** (ARP estático manual) para esta fase del experimento, basado en el paper _ARP Optimization in SDN Using Controller-Independent Strategies for Data Center Networks_ (Limon-Ortiz et al., UASLP / IEEE Access 2024), que evalúa exactamente este setup con Aruba 2930F + ODL. Esta estrategia elimina el broadcast ARP completamente, es compatible con cualquier OS Linux, y para 2 hosts el costo de configuración es mínimo (2 entradas).
 
 ---
 
-# Siguiente paso
+## Siguiente paso
 
 Ejecutar `instalar_flujos_fat_tree.py` e instalar los 10 flujos proactivos en ODL para el path H1↔H8
