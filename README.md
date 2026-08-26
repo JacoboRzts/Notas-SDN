@@ -17,7 +17,7 @@ There are some basic concepts to understand the OpenDayLight when using OpenFlow
 - [Groups](concepts/groups)
 - [Meters](concepts/meters)
 - [Multipaths](concepts/multipaths)
-- [Aruba](concepts/aruba.md)
+- [Aruba  2030F JL263A specification](concepts/aruba.md)
 
 Also there are some guide that help me to don't make the same mistake twice:
 
@@ -28,8 +28,7 @@ Also there are some guide that help me to don't make the same mistake twice:
 
 Cheatsheets: 
 
-
-- [docker](cheatsheets/docker)
+- [Docker](cheatsheets/docker)
 - [OpenDayLight Endpoints](cheatsheets/endpoints)
 - [Debian Linux Network commands](cheatsheets/linux-network)
 - [OVSwitch commands](cheatsheets/ovswitch)

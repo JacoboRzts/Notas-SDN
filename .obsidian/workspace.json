@@ -198,8 +198,8 @@
   },
   "active": "688b8d21c74de142",
   "lastOpenFiles": [
-    "concepts/aruba.md",
     "README.md",
+    "concepts/aruba.md",
     "cheatsheets/ovswitch.md",
     "cheatsheets/linux-network.md",
     "cheatsheets/endpoints.md",
