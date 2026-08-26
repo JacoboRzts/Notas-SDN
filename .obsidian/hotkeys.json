@@ -1,0 +1,44 @@
+{
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageDown"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageUp"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ]
+}

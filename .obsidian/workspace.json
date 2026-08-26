@@ -1,0 +1,258 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "be67d100b6f84e7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "688b8d21c74de142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7696d3266e485d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "eff61ac968f7e46b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f0233153c95daa6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4af0b67c32baaa98",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#project-management",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c8c1c346ffc4959e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "3bbd028d4f37f580",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5
+  },
+  "right": {
+    "id": "cdfc992e18227d3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "780c7d155620e1c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "916f0170d7b64021",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "concepts.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "37ebc9b0855becde",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Calendario.canvas"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Calendario"
+            }
+          },
+          {
+            "id": "3e61ada0174d6735",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "98b0b6e61500b772",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6d9eaffe7298e0a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353.140625,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "688b8d21c74de142",
+  "lastOpenFiles": [
+    "concepts/aruba.md",
+    "README.md",
+    "cheatsheets/ovswitch.md",
+    "cheatsheets/linux-network.md",
+    "cheatsheets/endpoints.md",
+    "cheatsheets/docker.md",
+    "how-to/install-odl.md",
+    "concepts/multipaths.md",
+    "how-to/install-mininet.md",
+    "how-to/check-odl.md",
+    "how-to/connect-switch.md",
+    "concepts/groups.md",
+    "concepts/meters.md",
+    "concepts/flows.md",
+    "experiments/hybrid.md",
+    "experiments/article.md",
+    "experiments/aruba.md",
+    "SDN/README.md",
+    "SDN/how-to/multipaths.md",
+    "ss-report.md",
+    "concepts.md",
+    "SDN/cheatsheets/ovswitch.md",
+    "SDN/how-to/connect-switch.md",
+    "SDN/how-to/check-odl.md",
+    "SDN/how-to/install-mininet.md",
+    "SDN/how-to/install-odl.md",
+    "SDN/experiments",
+    "SDN/hydrid",
+    "SDN/aruba",
+    "Universidad/Semestre 09/Supercomputo",
+    "Universidad/Semestre 09/Principios de computo en la nube",
+    "Universidad/Semestre 09/Proyectos Computacionales II",
+    "Universidad/Semestre 09",
+    "rtt_tcp_sl_evolucion.png",
+    "rtt_tcp_j3c_evolucion.png",
+    "Personal/my-path.excalidraw",
+    "Personal/Roadmap/DevOps/Claude Roadmap.pdf",
+    "Personal/Roadmap/DevOps/Tools.canvas",
+    "SDN/cheatsheets",
+    "Untitled.canvas",
+    "CheatSheets/Vim/LazyVim.canvas",
+    "Learning/LazyVim.canvas",
+    "Pasted image 20260505112952.png",
+    "Calendario.canvas",
+    "NheoVIm+LazyVim Navigations.canvas",
+    "NeoVIm+LazyVim Navigations.canvas",
+    "Pasted image 20260207225105.png",
+    "Cheatsheet.png",
+    "Universidad/04/Diseño e Implementación de Redes/Apuntes/Recursos/Pasted image 20240613163650.png",
+    "Universidad/04/Diseño e Implementación de Redes/Apuntes/Recursos/encapsulamiento-ip.png",
+    "Universidad/04/Diseño e Implementación de Redes/Imagenes/Pasted image 20240606164334.png",
+    "Universidad/04/Diseño e Implementación de Redes/Imagenes/Pasted image 20240606173526.png",
+    "Universidad/04/Diseño e Implementación de Redes/Imagenes/Captura desde 2024-06-07 16-24-38 1.png",
+    "Universidad/07/Criptografía/Criptografia Simetrica/Algoritmo DES.canvas",
+    "Tablero.canvas",
+    "Universidad/07/Semestre 6.canvas"
+  ]
+}

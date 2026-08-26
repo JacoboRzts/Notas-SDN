@@ -1,0 +1,15 @@
+{
+  "cssTheme": "AMOLED Serenity",
+  "theme": "system",
+  "accentColor": "#288ae6",
+  "interfaceFontFamily": "IBM Plex Sans",
+  "textFontFamily": "IBM Plex Sans",
+  "baseFontSize": 15,
+  "monospaceFontFamily": "JetBrains Mono",
+  "showViewHeader": true,
+  "showRibbon": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "mermaid"
+  ]
+}
